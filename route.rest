@@ -1,0 +1,25 @@
+GET http://localhost:3000/subscribers
+
+###
+GET http://localhost:3000/subscribers/6141022c6d18a64fa8120f5d
+
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "ITS A ME MARIO",
+    "subscribedToChannel": "Some random channel"
+}
+
+###
+DELETE http://localhost:3000/subscribers/614103306d18a64fa8120f5f
+
+###
+PATCH http://localhost:3000/subscribers/61410365caaf028a585e1419
+Content-Type: application/json
+
+{
+    "name": "Peach"
+}
